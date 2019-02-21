@@ -17,3 +17,11 @@ This "bootstraps" the PostgreSQL database with the correct tables. After that yo
 
 At that point, the web application should be visible by going to `localhost:8080` in a web browser. 
 
+# Solution debug
+02.21 
+    Initial review of Dockerfile
+        no initial errors
+        flaskapp exposed port 5001
+    Initial review docker-compose.yml
+        networks, ports and env. variables check
+            `localhost:8080` and nginx needs to listen on port 80, fixed port orders 
