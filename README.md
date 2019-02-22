@@ -68,5 +68,4 @@ At that point, the web application should be visible by going to `localhost:8080
 
         "app.run(host='0.0.0.0', port=int("5001"))" 
 
-        run docker-compose rebuild and see flaskapp in browser, routing works  
-        
+        run docker-compose rebuild and application works  
